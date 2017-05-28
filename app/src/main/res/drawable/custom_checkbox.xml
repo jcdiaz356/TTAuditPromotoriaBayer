@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--&lt;!&ndash; Estado Normal&ndash;&gt;-->
+    <item  android:drawable="@drawable/ic_custom_checked_on" android:state_checked="true" />
+    <item  android:drawable="@drawable/ic_custom_checked_off" android:state_checked="false" />
+    <item  android:drawable="@drawable/ic_custom_checked_on_disabled" android:state_checked="true" android:state_enabled="false" />
+    <item  android:drawable="@drawable/ic_custom_checked_off_disabled" android:state_checked="false" android:state_enabled="false" />
+
+
+</selector>

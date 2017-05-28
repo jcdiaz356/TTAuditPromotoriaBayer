@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_gravity="center"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="261dp"
+                android:layout_height="235dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_app" />
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5">
+                <EditText
+                    style="@style/TextLogin"
+                    android:layout_height="45dp"
+                    android:layout_width="fill_parent"
+                    android:hint="@string/user_name"
+                    android:drawableLeft="@drawable/ic_user"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginRight="25dip"
+                    android:layout_marginBottom="15dp"
+                    android:id="@+id/etUsuario"
+                    android:text=""
+                    android:ems="10"
+                    android:singleLine="true">
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5">
+                <EditText
+                    style="@style/TextLogin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginRight="25dip"
+                    android:layout_marginBottom="15dp"
+                    android:hint="@string/password"
+                    android:password="true"
+                    android:text=""
+                    android:id="@+id/etContrasena"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGRESAR"
+                android:id="@+id/btIngresar"
+                style="@style/BottonBase" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:id="@+id/buttonbar"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentBottom="true">-->
+        <!--<Button-->
+            <!--android:id="@+id/btLlamar"-->
+            <!--style="@style/BottonButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableTop="@drawable/ic_phono"-->
+            <!--android:text="@string/central"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/btUbicar"-->
+            <!--style="@style/BottonButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableTop="@drawable/ic_marker_map"-->
+            <!--android:text="@string/ubicacion"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

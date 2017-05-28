@@ -1,0 +1,88 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <GridView
+    android:id="@+id/PhoneImageGrid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:horizontalSpacing="4dip"
+    android:numColumns="3"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="4dip"
+    android:padding="4dip"
+    android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/BottonBase"
+        android:text="TOMAR FOTO"
+        android:drawableLeft="@drawable/ic_foto"
+        android:id="@+id/take_photo" />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBIR FOTO"
+        style="@style/BottonBase"
+        android:drawableLeft="@drawable/ic_subir"
+        android:id="@+id/save_images" />
+    </LinearLayout>
+
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="20dp">-->
+    <!--<GridView-->
+        <!--android:id="@+id/PhoneImageGrid"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="344dp"-->
+        <!--android:gravity="center"-->
+        <!--android:horizontalSpacing="4dip"-->
+        <!--android:numColumns="3"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:verticalSpacing="4dip"-->
+        <!--android:padding="4dip"-->
+        <!--android:focusableInTouchMode="false" />-->
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:paddingBottom="10dp">-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/ButtonBase"-->
+            <!--android:text="TOMAR FOTO"-->
+            <!--android:drawableLeft="@drawable/ic_foto"-->
+            <!--android:id="@+id/take_photo" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:paddingBottom="10dp">-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="SUBIR FOTO"-->
+            <!--style="@style/ButtonBase"-->
+            <!--android:drawableLeft="@drawable/ic_subir"-->
+            <!--android:id="@+id/save_images" />-->
+    <!--</LinearLayout>-->
+<!--</LinearLayout>-->

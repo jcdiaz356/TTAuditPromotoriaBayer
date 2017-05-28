@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"  >
+    <item android:id="@+id/action_profile" android:title="@string/profile" android:orderInCategory="100" app:showAsAction="never"  >@style/MyActionBar</item>
+    <item android:id="@+id/action_change_password" android:title="@string/change_password" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_exit" android:title="@string/exit" android:orderInCategory="100" app:showAsAction="never" />
+</menu>

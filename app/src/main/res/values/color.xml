@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_base">#18a1b0</color>
+    <color name="color_fondo">#09727e</color>
+    <!--colores de menu-->
+    <color name="menu">#ff1e1e1e</color>
+    <color name="menu_selected">#ff393939</color>
+    <color name="menu_pressed">#ff4e4e4e</color>
+    <!--Colores de botones botones base -->
+    <color name="color_buttom_normal">@color/color_base</color>
+    <color name="color_buttom_pressed">#ff363636</color>
+    <!--Colore s de botones para cerrarauditoria-->
+    <color name="color_buttom_rojo">#ffff1a10</color>
+    <color name="color_buttom_negro">#000000</color>
+    <color name="color_buttom_disabled">#747474</color>
+    <color name="color_buttom_verde">#fd1a10</color>
+    <!--Colores de botones botones inferior -->
+    <color name="color_bottom_buttom_normal">@color/color_fondo</color>
+    <color name="color_bottom_buttom_pressed">#ffc5c5c7</color>
+    <!--Lista menu Left-->
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">@color/color_base</color>
+    <color name="list_background_pressed">@color/menu_pressed</color>
+    <color name="list_divider">#ff606060</color>
+    <color name="counter_text_bg">#fff8f8f8</color>
+    <color name="counter_text_color">#fd1a10</color>
+    <!--Listview Color-->
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider_row">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+
+    <!--Color Dataservicios-->
+    <color name="color_dt_base">#ff000000</color>
+    <color name="color_dt_white">#ffffffff</color>
+    <color name="color_dt_fondo">#29abe2</color>
+</resources>

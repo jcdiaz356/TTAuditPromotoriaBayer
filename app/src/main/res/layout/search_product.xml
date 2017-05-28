@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Editext for Search -->
+    <EditText android:id="@+id/etSearcProduct"
+        style="@style/TextLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:hint="Buscar producto.."
+        android:drawableRight="@drawable/ic_search"
+
+        android:singleLine="true"
+        android:inputType="textVisiblePassword"/>
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/listProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_row_selector"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        />
+
+</LinearLayout>

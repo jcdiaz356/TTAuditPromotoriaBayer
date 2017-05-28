@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--&lt;!&ndash; Estado Normal&ndash;&gt;-->
+<!--<item android:drawable="@color/colo_buttom_naranja_normal" />-->
+<!--&lt;!&ndash;Estado Pulsado&ndash;&gt;-->
+<!--<item android:state_enabled="true" android:state_pressed="true" android:drawable="@color/colo_buttom_naranja_pressed" />-->
+<!--</selector>-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--&lt;!&ndash; Estado Normal&ndash;&gt;-->
+    <item android:state_pressed="true"  android:drawable="@color/color_buttom_verde" />
+    <item android:state_focused="false" android:state_enabled="true" android:drawable="@color/color_buttom_negro" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@color/color_buttom_rojo" />
+    <item android:state_focused="false" android:state_enabled="false" android:drawable="@color/color_buttom_disabled" />
+    <item android:state_focused="true" android:state_enabled="false" android:drawable="@color/color_buttom_disabled" />
+
+</selector>

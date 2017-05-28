@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TTAudit Promotoría Bayer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Usuario</string>
+    <string name="password">Contraseña</string>
+    <!--String main menu right-->
+    <string name="profile">Usuario</string>
+    <string name="change_password">Cambiar Contraseña</string>
+    <string name="about">Acerca de</string>
+    <string name="exit">Salir</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Mis Rutas</item>
+        <item >Fotos truncadas</item>
+        <item >Backup de fotos</item>
+        <item >Registro de fotos</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_mis_rutas</item>
+        <item>@drawable/ic_foto</item>
+        <item>@drawable/ic_foto</item>
+        <item>@drawable/ic_foto</item>
+        <item>@drawable/ic_foto</item>
+    </array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!--BOTONES LOGIN-->
+    <string name="central">Central</string>
+    <string name="ubicacion">Ubicación</string>
+
+
+   <!-- Mapa de rutas-->
+
+    <string name="str_btn_draw">Draw Route</string>
+
+    <string name="descr_image">Image</string>
+    <!--<string name="album_name">RedAgenteGlobalApp</string>-->
+    <string name="album_name">ttAuditAlicorpMayoristaPhoto</string>
+    <string name="album_name_temp">ttAuditAlicorpMayoristaPhotoTemp</string>
+    <string name="album_name_backup">ttAuditAlicorpMayoristaPhotoBackup</string>
+
+    <string name="sw_si">SI</string>
+    <string name="sw_no">NO</string>
+
+    <!-- -->
+    <string name="dialog_message_permission">Para poder iniciar la aplicación necesita establecer los permisos</string>
+    <string name="permission_access">Se ha otorgado el permiso</string>
+    <string name="ok">OK</string>
+
+    <!-- Versiones-->
+    <string name="version">Versión</string>
+    <string name="log">Log</string>
+    <string name="developer">Developed by:</string>
+    <string name="mesaage_on_back">No se puede volver atras, los datos ya fueron guardado, para modificar póngase en contácto con el administrador</string>
+    <string name="text_loading">Cargando...</string>
+    <string name="message_no_save_data">No se pudo guardar la información intentelo nuevamente</string>
+    <string name="message_save">Guardar</string>
+    <string name="message_save_information">Está seguro de guardar todas las encuestas</string>
+    <string name="message_login_error">No se pudo iniciar sessión</string>
+    <string name="message_login_success">Inicio de sesión correctamente</string>
+    <!-- Log Versiones  -->
+</resources>

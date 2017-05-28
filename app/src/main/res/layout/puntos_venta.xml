@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="41dp"
+            android:padding="5dp"
+            android:background="@color/color_bottom_buttom_pressed">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ruta del dÃ­a: 12/01/2015"
+                android:id="@+id/tvPDVSdelDia"
+                android:textSize="@dimen/general"
+
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="No de PDVs"
+                android:id="@+id/tvPDVS"
+                android:textSize="@dimen/general" />
+
+            <EditText
+                style="@style/TextLogin"
+                android:layout_width="104dp"
+                android:layout_height="34dp"
+                android:id="@+id/etPDVS"
+                android:textSize="@dimen/general"
+
+                android:editable="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="No PDVs Auditados"
+                android:id="@+id/tvPDVSAuditados"
+                android:textSize="@dimen/general" />
+
+            <EditText
+                android:layout_width="99dp"
+                android:layout_height="34dp"
+                android:id="@+id/etPDVSAuditados"
+                style="@style/TextLogin"
+
+                android:editable="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Avance"
+                android:id="@+id/textView"
+                android:textSize="@dimen/general"
+                />
+
+            <EditText
+                android:layout_width="90dp"
+                android:layout_height="34dp"
+                android:id="@+id/etPorcentajeAvance"
+                style="@style/TextLogin"
+
+                android:editable="false" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="56dp">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="MAPA DE RUTAS"-->
+        <!--android:id="@+id/btMapaRuta"-->
+        <!--style="@style/BottonBase" />-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp">
+
+            <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="MAPA DE RUTAS"-->
+            <!--android:id="@+id/btMapaRuta"-->
+            <!--style="@style/BottonBase" />-->
+
+            <Button
+                android:id="@+id/btMapaRuta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_route"
+                android:layout_below="@+id/widget110"
+                android:background="@android:color/transparent"
+                android:layout_gravity="right" />
+
+            <Button
+                android:id="@+id/btMapaRutaAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_route_all"
+                android:layout_below="@+id/widget110"
+                android:background="@android:color/transparent"
+                android:layout_gravity="right" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/list_divider"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_row_selector" />
+
+
+
+</LinearLayout>

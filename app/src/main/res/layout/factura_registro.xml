@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ListView
+        android:id="@+id/listProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:layout_weight="1"
+        android:layout_above="@+id/ButtonsLinearLayout"
+        android:listSelector="@drawable/list_row_selector" />
+    <!--<ListView-->
+        <!--android:id="@+id/ListView1"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:layout_above="@+id/ButtonsLinearLayout" />-->
+    <LinearLayout
+        android:id="@id/ButtonsLinearLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btNuevo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_sync"
+            style="@style/BottonBase"
+            android:layout_marginBottom="10dp"
+            android:text="INGRESAR FACTURA"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btFinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_sync"
+            style="@style/BottonBase"
+            android:layout_marginBottom="10dp"
+            android:text="FINALIZAR"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

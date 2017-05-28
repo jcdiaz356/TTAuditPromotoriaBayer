@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapaRutas">
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_draw"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="MOSTRAR RUTA"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--style="@style/BottonBase" />-->
+
+    <!--<fragment-->
+    <!--android:id="@+id/map"-->
+    <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@id/btn_draw" />-->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnMarkeInter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_inter_active"
+        android:layout_gravity="right|top"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:paddingRight="10dp"
+        android:elegantTextHeight="true"
+        />
+    <Button
+        android:id="@+id/btnMarkeBayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_bayer_active"
+        android:layout_gravity="right|top"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:layout_marginTop="90dp"
+        android:paddingRight="10dp"
+        android:elegantTextHeight="true"
+        />
+    <Button
+        android:id="@+id/btnMarkeAlicorp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_alicorp_active"
+        android:layout_gravity="right|top"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:layout_marginTop="140dp"
+        android:paddingRight="10dp"
+        android:elegantTextHeight="true"
+        />
+
+</RelativeLayout>

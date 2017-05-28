@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:paddingLeft="5dp"
+android:paddingRight="5dp"
+    android:background="@color/color_base"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+
+        android:id="@+id/lyProgresBar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/pbHeaderProgress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ProgressBar>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fondo_agente_about"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/version"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/genre"
+            android:textColor="@color/color_dt_white"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/tvVersionAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/version"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/genre"
+            android:textColor="@color/color_dt_white"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/log"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/genre"
+            android:textColor="@color/color_dt_white"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/developer"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/genre"
+            android:textColor="@color/color_dt_white"
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_developer"
+            android:id="@+id/imageDeveloper"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_dt_white"
+            android:text="CERRAR"
+            android:id="@+id/cbSalir"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
